@@ -3,7 +3,7 @@ version: '3.8'
 services:
   app:
     build: .
-    container_name: dev_ops
+    container_name: devops
     environment:
       SPRING.DATASOURCE.URL: jdbc:postgresql://localhost:5432/devops_db}
       SPRING.DATASOURCE.USERNAME: postgres
